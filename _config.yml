@@ -1,0 +1,28 @@
+# Site settings
+title: Let's Build Robots!
+description: "A website resource for Maker Lab's robotics course, held in April 2015 in Brighton, UK"
+url: "http://makerclub.org/makerlab"
+author:
+  name: "N. Seymour-Smith and L. d'Aboville"
+  url: "http://makerclub.org/makerlab"
+
+# Build settings
+baseurl: /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.0.1"
