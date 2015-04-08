@@ -7,7 +7,7 @@ author:
   url: "http://makerclub.org/makerlab"
 
 # Build settings
-baseurl: /
+baseurl: /lesson-site/
 markdown: kramdown
 source: .
 destination: ./_site
