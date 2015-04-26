@@ -1,5 +1,15 @@
-@page {
-  size: 5.5in 8.5in;
-  margin-left: 1cm;
-  margin-right: 1cm;
+@media print {
+   body, article {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+
+   @page {
+      margin: 2cm;
+   }
+ 
+   highlight, ul, img {
+       page-break-inside: avoid;
+   }
 }
