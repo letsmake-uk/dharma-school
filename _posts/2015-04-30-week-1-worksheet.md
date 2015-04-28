@@ -8,8 +8,7 @@ S4A has a custom Arduino Sprite, which has it's own special blocks
 
 When you launch S4A if you don't have your Arduino connected you will see this message
 
-![S4A Searching](../img/S4A_searchingBoard.jpg "S4A Searching")
-![Arduino Uno](../img/ArduinoDiagram.jpg "An Arduino Uno")
+![S4A Searching](../img/S4ASearchingBoard.jpg "S4A Searching")
 
 When you connect the Arduino, the numbers on the analog pins should start jumping around 
 
