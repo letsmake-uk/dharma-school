@@ -12,7 +12,7 @@ When you launch S4A if you don't have your Arduino connected you will see this m
 
 When you connect the Arduino, the numbers on the analog pins should start jumping around 
 
-![S4A Arduino Sprite](../img/S4A_sprite.JPG "S4A Arduino Sprite")
+![S4A Arduino Sprite](../img/S4ASprite.JPG "S4A Arduino Sprite")
 
 If you go to the blue "Motion" section at the top left, you should see all of S4A's special Arduino blocks
 
