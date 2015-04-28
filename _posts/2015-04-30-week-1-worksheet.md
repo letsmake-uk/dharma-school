@@ -8,12 +8,12 @@ S4A has a custom Arduino Sprite, which has it's own special blocks
 
 When you launch S4A if you don't have your Arduino connected you will see this message
 
-Two dots
-![S4A Searching](../img/S4A-searchingBoard.jpg "S4A Searching")
+![S4A Searching](../img/S4A_searchingBoard.jpg "S4A Searching")
+![Arduino Uno](../img/ArduinoDiagram.jpg "An Arduino Uno")
 
 When you connect the Arduino, the numbers on the analog pins should start jumping around 
 
-![S4A Arduino Sprite](../img/S4A-sprite.jpg "S4A Arduino Sprite")
+![S4A Arduino Sprite](../img/S4A_sprite.jpg "S4A Arduino Sprite")
 
 If you go to the blue "Motion" section at the top left, you should see all of S4A's special Arduino blocks
 
