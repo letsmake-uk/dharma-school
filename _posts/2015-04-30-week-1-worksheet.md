@@ -4,19 +4,19 @@ title: Week 1 - Worksheet
 
 <a href="http://s4a.cat">Scratch 4 Arduino</a> is a custom version of scratch that makes it super easy to get up and running with Arduino programming. This worksheet is going to show you how to get set up and start making your first programs using S4A.
 
-<img src = "../img/S4A logo.png" style = width:200px > </img>
+![S4A Logo](../img/S4A searchingBoard.JPG "S4A Logo")
 
 For a great little introduction to S4A, check out the first 10 pages or so of <a href="http://seymoursmith.net/lesson-site/img/S4A Presentation.pdf">this presentation</a>. When you first launch the program, if you don't have your Arduino connected your stage (the bit at the top right of your screen) will look like this : 
 
-![S4A Searching](../img/S4A searchingBoard.JPG "S4A Searching")
+![S4A Searching](../img/S4A searchingBoard.png "S4A Searching")
 
 When you connect the Arduino, the "Searching" should disappear and the numbers on the analog pins should start jumping around
 
-![S4A Found](../img/S4A foundBoard.JPG "S4A Found")
+![S4A Found](../img/S4A foundBoard.png "S4A Found")
 
 Up in the top left of your screen are all the different categories of Scratch blocks for making your program.
 
-![S4A Categories](../img/S4A categories.JPG "S4A Categories")
+![S4A Categories](../img/S4A categories.png "S4A Categories")
 
 If you go to the blue "Motion" section, you should see all of S4A's special Arduino blocks. We will look at all of these over the coming weeks, but to start off with, we are going to concentrate on using these two : 
 
