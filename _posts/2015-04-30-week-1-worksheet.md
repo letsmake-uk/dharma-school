@@ -82,3 +82,4 @@ Because this is on the same pin as the onboard LED, we don't have to change any 
 ![block_sensorPressed](../img/block_sensorPressed.png "block_sensorPressed")
 ![block_valueOfSensor](../img/block_valueOfSensor.png "block_valueOfSensor")
 -->
+>>>>>>> 8bfcdaa8fd6c241e2a72085c9f9da75be9c031ba
