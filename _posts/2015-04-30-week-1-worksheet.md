@@ -2,15 +2,17 @@
 title: Week 1 Worksheet
 ---
 
-This week, we are looking at how to control an Arduino using <a href="http://s4a.cat">Scratch 4 Arduino</a>
+![S4A Logo](../img/S4A logo.png "S4A Logo")
 
-S4A has a custom Arduino Sprite, which has it's own special blocks
+<a href="http://s4a.cat">Scratch 4 Arduino</a> is a custom version of scratch that makes it super easy to get up and running with Arduino programming. This worksheet is going to show you how to get set up and start making your first programs using S4A.
 
-When you launch S4A if you don't have your Arduino connected you will see this message
+For a great little introduction, check out the first 10 pages or so of <a href="http://seymoursmith.net/lesson-site/img/S4A Presentation.pdf">this presentation</a>
+
+When you first launch S4A if you don't have your Arduino connected you will see this message
 
 ![S4A Searching](../img/S4ASearchingBoard.JPG "S4A Searching")
 
-When you connect the Arduino, the numbers on the analog pins should start jumping around 
+When you connect the Arduino, this should disappear and the numbers on the analog pins should start jumping around 
 
 ![S4A Arduino Sprite](../img/S4ASprite.JPG "S4A Arduino Sprite")
 
