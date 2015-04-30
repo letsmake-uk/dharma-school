@@ -4,7 +4,7 @@ title: Week 1 - Worksheet
 
 <a href="http://s4a.cat">Scratch 4 Arduino</a> is a custom version of scratch that makes it super easy to get up and running with Arduino programming. This worksheet is going to show you how to get set up and start making your first programs using S4A.
 
-![S4A Logo](../img/S4A searchingBoard.JPG "S4A Logo")
+![S4A Logo](../img/S4A logo.png "S4A Logo")
 
 For a great little introduction to S4A, check out the first 10 pages or so of <a href="http://seymoursmith.net/lesson-site/img/S4A Presentation.pdf">this presentation</a>. When you first launch the program, if you don't have your Arduino connected your stage (the bit at the top right of your screen) will look like this : 
 
