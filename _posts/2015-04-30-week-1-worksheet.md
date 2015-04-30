@@ -6,15 +6,15 @@ title: Week 1 - Worksheet
 
 ![S4A Logo](../img/S4A logo.png "S4A Logo")
 
-For a great little introduction to S4A, check out the first 10 pages or so of <a href="http://seymoursmith.net/lesson-site/img/S4A Presentation.pdf">this presentation</a>. When you first launch the program, if you don't have your Arduino connected your stage (the bit at the top right of your screen) will look like this : 
+For a great little introduction to S4A, check out the first 10 pages or so of <a href="http://seymoursmith.net/lesson-site/img/S4A Presentation.pdf">this presentation</a>. When you first launch the program, if you don't have your Arduino connected, your stage (the bit at the top right of your screen) will look like this : 
 
 ![S4A Searching](../img/S4A searchingBoard.png "S4A Searching")
 
-When you connect the Arduino, the "Searching" should disappear and the numbers on the analog pins should start jumping around
+When you connect the Arduino, the "Searching..." message should disappear and the numbers on the analog pins should start jumping around
 
 ![S4A Found](../img/S4A foundBoard.png "S4A Found")
 
-Up in the top left of your screen are all the different categories of Scratch blocks for making your program.
+Up in the top left of your screen are all the different categories of Scratch blocks for making your program. If you've used the original version of scratch before, this should be very familiar, apart from the additional section that comes with s4a, a blue one titled "Motion":
 
 ![S4A Categories](../img/S4A categories.png "S4A Categories")
 
@@ -62,7 +62,7 @@ If we want to turn our switch on, we have to connect the wire from 5V as show be
 This script will use our switch to turn the onboard LED on and off.
 ![LED digitalSwitch](../img/LED digitalSwitch.png "LED digitalSwitch")
 
-With this circuit, you can now use your switch to control all kinds of things in Scratch too! try getting something to happen in scratch whenever your LED lights up. Maybe even try getting aa game or animation in scratch to control your LED!
+With this circuit, you can now use your switch to control all kinds of things in Scratch too! try getting something to happen in scratch whenever your LED lights up. Maybe even try getting a game or animation in scratch to control your LED!
 
 
 
