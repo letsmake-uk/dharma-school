@@ -52,32 +52,3 @@ Have a go at making a program that sends your name in Morse code, and then we'll
 
 
 
-## Paper Circuits
-
-We could use lots of other things instead of wires to create our circuit. Anything that conducts electricity will work. Conductive tape is really handy, but if you don't have any at home you can try using things like paperclips and tin foil. You can even buy special <a href="http://www.bareconductive.com/shop/
-">paint</a> now that conducts electricity, and even <a href="https://123d.circuits.io/shop/circuitscribe#accessories">pens</a> that write with conductive ink. 
-
-
-Here are a few cool projects for inspiration.
-
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/AI-6wMlaVTc" frameborder="0" allowfullscreen></iframe>
-
- 
-
-<iframe src="https://player.vimeo.com/video/40904471" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/40904471">Interactive Light Painting: Pu Gong Ying Tu (Dandelion Painting)</a> by <a href="https://vimeo.com/user1892233">Jie Qi</a><p>
-
-<!--
-http://www.creativeapplications.net/sound/paper-electronics-by-coralie-gourguechon/
-
-
-Arduino free paper circuit ideas:
-
-
-http://highlowtech.org/?p=2505
-
-
- - Talk about soldering / proto boards
- - Talk about PCB etching
- - Hook up the switch to turn pin 13 on/off
--->
