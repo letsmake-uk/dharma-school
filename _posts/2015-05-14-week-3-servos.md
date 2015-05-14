@@ -31,7 +31,7 @@ Try sending it a value of 180, then sending it a value bigger than 180. It doesn
 <br>
 Here is a simple program that makes our servo wiggle back and forth.
 
-![servo wiggle](../img/servo_Wiggle.PNG "servo wiggle")
+![servo wiggle](../img/servo_wiggle.PNG "servo wiggle")
 
 <br>
 But what if we want to be able to control our servo manually? Let's use the things we learned sending morse code and see if we can make a cool control system using the keyboard. First of all, we want to create broadcast messages for servoLeft and servoRight. Then we will call these every time we press the left and right arrow keys. 
