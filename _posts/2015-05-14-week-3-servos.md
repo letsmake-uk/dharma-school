@@ -31,7 +31,7 @@ Try sending it a value of 180, then sending it a value bigger than 180. It doesn
 <br>
 Here is a simple program that makes our servo wiggle back and forth.
 
-![servo wiggle](../img/servo_Wiggle.png "servo wiggle")
+![servo wiggle](../img/servo_Wiggle.PNG "servo wiggle")
 
 <br>
 But what if we want to be able to control our servo manually? Let's use the things we learned sending morse code and see if we can make a cool control system using the keyboard. First of all, we want to create broadcast messages for servoLeft and servoRight. Then we will call these every time we press the left and right arrow keys. 
@@ -56,14 +56,14 @@ If we want to move our servo only a little bit left or right, we need to have a 
 <br>
 Now what we can do is add or subtract stuff from this variable, and our servo will move left or right just a little bit from wherever it already is. There is a bit of a problem with this code though, have a play around and see if it behaves in a way you didn't expect.
 
-![Servo 4](../img/servo4.png "Servo 4")
+![Servo 4](../img/servo4.PNG "Servo 4")
 
 
 <br>
 You might have noticed that when we move below 0 or above 180, the servo doesn't go back the other way straight away. This is because our variable is going outside the 0-180 range of our servo, and when we start moving back the other way, we have to wait for it to come back inside the range. This is probably not how we would like it to behave.
 
 <br>
-![Servo 5](../img/servo5.png "Servo 5")
+![Servo 5](../img/servo5.PNG "Servo 5")
 
 
 <br>
@@ -77,12 +77,12 @@ To do this, we will have to use some of the green "operators" blocks.
 
 
 <br>
-![Servo 6](../img/servo6.png "Servo 6")
+![Servo 6](../img/servo6.PNG "Servo 6")
 
 
 <br>
 This is much better, and probably works the way you would expect it to. Now what if we wanted to make it go faster or slower? Again, we don't want to have to change this in two different places so let's make a new variable called servoSpeed, set it to something bigger than 5, then use this value in our servoLeft and servoRight code.
 
-![Servo 7](../img/servo7.png "Servo 7")
+![Servo 7](../img/servo7.PNG "Servo 7")
 
 
