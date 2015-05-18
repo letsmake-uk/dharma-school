@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 2 - Worksheet
+title: Paper switch
 ---
 
 ## Paper Switch

@@ -42,6 +42,6 @@ Now we can wiggle our servos around manually, woooohooo!
 
 
 <br>
-Here we have combined these two programs so we have a wiggling servo that also has keyboard control. You might be wondering why we have used broadcasts for such a simple program. What we actually want our program to do is move the servo only a little bit left or right, and we are going to add stuff to our servoLeft and servoRight code so that we can do this.
+Here we have combined these two programs so we have a wiggling servo that also has keyboard control. 
 
 ![Servo 2](../img/servo2.png "Servo 2")
