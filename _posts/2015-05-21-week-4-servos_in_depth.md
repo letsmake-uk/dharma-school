@@ -3,7 +3,7 @@ layout: post
 title: Week 4 - Servos in depth
 ---
 
-Last week, we gave you an introduction to the wonderful world of servos. Our versatile little friends are used in hundreds of different ways, from robot arms, legs and steering to the regulators and switches keep power plants from blowing up!
+Last week, we gave you an introduction to the wonderful world of servos. Our versatile little friends are used in hundreds of different ways, from robot arms, legs and steering to the regulators and switches keeping power plants from blowing up!
 
 Here's a reminder of the important details:
 
@@ -49,19 +49,19 @@ But today, rather than just moving from one side to the other like a wind-screen
 If we want to move our servo only a little bit left or right, we need to have a way of knowing where it is. We can do that by storing our servo angle in a **variable**. Variables are a really important concept in programming. We use them whenever we need a number we can use in lots of different places in our code. Using variables instead of "hard coded" numbers means that if we change the value of our variable, all of the places in our code where we use it will automatically use the new value. To make a new variable in Scratch, go to the variables section and click on "Make a variable"
 
 
-![Make a variable](../img/var_createVar.png "Make a variable")
+![Make a variable](../img/var_createVar.PNG "Make a variable")
 
 
 <br>
 A window will pop up asking what you want to call your new variable. We want a number to store the current angle of our servo motor, so we are going to call it "servoAngle" It is always a good idea to name your variables with a good description of what they are used for. It helps you remember what it's for, and it makes your code easier to understand.
 
-![servo angle variable](../img/var_createServoAngle.png "servo angle variable")
+![servo angle variable](../img/var_createServoAngle.PNG "servo angle variable")
 
 
 <br>
 Once you have created a variable, some new blocks will pop up in the variables section. These are what we will use whenever we want to modify our variable, or use it in our program. The most important ones are the "set servoAngle to..." block, and the round "servoAngle" block.
 
-![Variable blocks](../img/var_varBlocks.png "Variable blocks")
+![Variable blocks](../img/var_varBlocks.PNG "Variable blocks")
 
 
 <br>
