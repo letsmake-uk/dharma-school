@@ -46,7 +46,10 @@ But today, rather than just moving from one side to the other like a wind-screen
 ## Variables
 
 <br>
-If we want to move our servo only a little bit left or right, we need to have a way of knowing where it is. We can do that by storing our servo angle in a **variable**. Variables are a really important concept in programming. We use them whenever we need a number we can use in lots of different places in our code. Using variables instead of "hard coded" numbers means that if we change the value of our variable, all of the places in our code where we use it will automatically use the new value. To make a new variable in Scratch, go to the variables section and click on "Make a variable"
+Some of you may have noticed that although we can tell our servo to go to any particular angle, there's no specific block to tell it to move 'a little bit to the left' or 'a little bit to the right'. This is one of the differences between a servo and a motor - it can only move to exactly the angle you tell it to!
+
+
+If we want the servo to go just a little to the left of *where it is*, then we need a way of *keeping track* of where it is. This is where scratch's **variables** come in. Variables are a really important concept in programming. We use them whenever we need a number we can use in lots of different places in our code. Using variables instead of written numbers means that if we change the value of our variable, all of the places in our code where we use it will automatically use the new value. To make a new variable in Scratch, go to the variables section and click on "Make a variable"
 
 
 ![Make a variable](../img/var_createVar.PNG "Make a variable")

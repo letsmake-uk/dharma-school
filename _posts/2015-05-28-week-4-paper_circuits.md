@@ -7,7 +7,7 @@ title: Week 4 - Paper circuits
 
 <br>
 
-So we can now control our robot with keyboard commands if we want to. But what if we wanted our robot to have it's controls actually built in? Remember our switch from week 1? Let's have a quick look at it again, and see how it works.
+So we can now control our robot with keyboard commands if we want to. But what if we wanted our robot to have its controls actually built in? Remember our switch from week 1? Let's have a quick look at it again, and see how it works.
 
 
 When the switch is closed current flows directly from 5V into pin 2, giving us a high voltage reading in pin 2 :
@@ -20,12 +20,10 @@ When the switch is open, all the remaining charge flows away into ground, like a
 ![Digital Switch open](../img/LED switch circuit 2 DESAT.png "Digital Switch open")
 
 
+So far we have been using a breadboard and jumper wires to prototype our circuits. This is super useful when we are still playing with our circuit design, because it lets us rearrange things very quickly and easily. What about when we are happy with our design and want to keep it? Well, we could design and print a circuit board (like the one the arduino is built on), but that takes a lot of time and money - a much more quick and cheap way would be to use conductive tape, and lay our circuit out on card or paper. 
 
 
-So far we have been using a breadboard and jumper wires to prototype our circuits. This is super useful when we are still playing with our circuit design, because it lets us rearrange things very quickly and easily. What about when we are happy with our design and want to keep it? Well, one way that we could do this is to use conductive tape, and lay our circuit out on paper. 
-
-
-This is our switch circuit laid out with conductive tape. To close the switch all we need to do is to fold down the corner so that the 5V connection touches the connection going to pin 2. You can even add little female jumper wire attachments so that your switch is super easy to wire into your Arduino, like I have done here.
+Below is a picture of the exact same circuit we showed you above but laid out with conductive tape on card. To close the switch all we need to do is to fold down the corner so that the 5V connection touches the connection going to pin 2. You can even add little female jumper wire attachments so that your switch is super easy to wire into your Arduino, like I have done here.
 
 ![Paper Switch](../img/paperSwitch.png "Paper Switch")
 
@@ -36,7 +34,7 @@ This is our switch circuit laid out with conductive tape. To close the switch al
 -->
 
 
-The paper circuit is exactly the same as our switch from last week. If you look closely all the same things connect together. As long as electricity flows around our circuit in the same way, it will behave exactly the same. If we pop an LED in pin 13, we can use this same block of code from the first week to turn the LED on and off.
+The paper circuit is exactly the same as our switch from the first week. If you look closely, all the same things connect together. As long as electricity flows around our circuit in the same way, it will behave exactly the same. If we pop an LED in pin 13, we can use this same block of code from the first week to turn the LED on and off.
 
 
 ## ADD EXAMPLES OF USING THE SWITCH - LEDS AND SERVOS
