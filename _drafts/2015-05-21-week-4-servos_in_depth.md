@@ -43,7 +43,29 @@ And some others might have used broadcasts to control the wiggling with keypress
 But today, rather than just moving from one side to the other like a wind-screen wiper (or a waving machine!), we'd like to show you how to use key-presses to move the servo arm bit-by-bit, to any position between 0 and 180. And to make our lives easier we're going to be using all of the tricks we learned in our morse-code examples from weeks 2 and 3.
 
 
-If we want to move our servo only a little bit left or right, we need to have a way of knowing where it is. We can do that by storing our servo angle in a variable. Below we have made a new variable called servoAngle, and changed our code to use this variable instead of typing in numbers to the "motor 8 angle" block.
+## Variables
+
+<br>
+If we want to move our servo only a little bit left or right, we need to have a way of knowing where it is. We can do that by storing our servo angle in a **variable**. Variables are a really important concept in programming. We use them whenever we need a number we can use in lots of different places in our code. Using variables instead of "hard coded" numbers means that if we change the value of our variable, all of the places in our code where we use it will automatically use the new value. To make a new variable in Scratch, go to the variables section and click on "Make a variable"
+
+
+![Make a variable](../img/var_createVar.png "Make a variable")
+
+
+<br>
+A window will pop up asking what you want to call your new variable. We want a number to store the current angle of our servo motor, so we are going to call it "servoAngle" It is always a good idea to name your variables with a good description of what they are used for. It helps you remember what it's for, and it makes your code easier to understand.
+
+![servo angle variable](../img/var_createServoAngle.png "servo angle variable")
+
+
+<br>
+Once you have created a variable, some new blocks will pop up in the variables section. These are what we will use whenever we want to modify our variable, or use it in our program. The most important ones are the "set servoAngle to..." block, and the round "servoAngle" block.
+
+![Variable blocks](../img/var_varBlocks.png "Variable blocks")
+
+
+<br>
+Below is our program changed so that it uses the new variable. We first set our variable to what we want it to be, then instead of typing in numbers to the "motor 8 angle" block we use the round "servoAngle" block.
 
 ![Servo 3](../img/servo3.png "Servo 3")
 
@@ -62,20 +84,23 @@ You might have noticed that when we move below 0 or above 180, the servo doesn't
 
 
 <br>
-To fix this what we need to is, wheen we move left check whether servoAngle has gone below 0. Also, every time we move right, check whether it has gone above 180.
-
+To fix this what we need to is, when we move left check whether servoAngle has gone below 0. If it has gone below 0 we want to set it to 0. Also, every time we move right, check whether it has gone above 180 and if it has, set it to be 180. This way our variable will never go outside the range 0-180.
+ 
 
 To do this, we will have to use some of the green "operators" blocks. 
 
-  - The " < " block checks whether the thing on the left is *smaller* than the thing on the right
-  - The " > " block checks whether the thing on the left is *bigger* than the thing on the right
+  - The " < " block checks whether what's on the left is *smaller* than what's on the right
+  - The " > " block checks whether what's on the left is *bigger* than what's on the right
 
 
+<br>
 <br>
 ![Servo 6](../img/servo6.PNG "Servo 6")
 
 
 <br>
-This is much better, and probably works the way you would expect it to. Now what if we wanted to make it go faster or slower? Again, we don't want to have to change this in two different places so let's make a new variable called servoSpeed, set it to something bigger than 5, then use this value in our servoLeft and servoRight code.
+This is much better, and probably works the way you would expect it to. Now what if we wanted to make it go faster or slower? Again, we don't want to have to change this in two different places so let's make a new variable called "servoSpeed", set it to something bigger than 5, then use this value in our servoLeft and servoRight code.
 
 ![Servo 7](../img/servo7.PNG "Servo 7")
+
+Now if we want to make our servo move at a different speed all we have to do is change our "servoSpeed" variable. We could even add keyboard shortcuts to change the speed if we want to, and use the same techniques to limit the range of values. See if you can work out how to do this...
