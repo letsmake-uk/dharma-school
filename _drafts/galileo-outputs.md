@@ -1,6 +1,6 @@
 ---
 layout: handout
-title: Galileo setup
+title: Outputs
 ---
 
 <br>
@@ -8,7 +8,7 @@ title: Galileo setup
 Intro text.
 
 
-## Galileo setup
+## LED
 <br>
 
 Description
