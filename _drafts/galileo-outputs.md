@@ -53,7 +53,7 @@ Like the galileo, the UNO has 5 analog inputs. This one has been programmed to a
 
 
 
-![LED ring output](../img/galileo/Output - LED ring_bb.png "LED ring output")
+![LED ring output](../img/galileo/Output - LED ring - OneInput_bb.png "LED ring output")
 
 
 <!-- ## X11 mains output
