@@ -1,0 +1,69 @@
+---
+layout: post
+title: Galileo and Arduino resources
+---
+
+We hope you have enjoyed this short introduction to the possibilities of making with the <a href = "http://www.intel.co.uk/content/www/uk/en/do-it-yourself/galileo-maker-quark-board.html">Intel Galileo</a>. We have collected some useful resources for you here so that you can continue playing and exploring with the Galileo on your own.
+
+
+
+## <a href = "http://makezine.com/books/getting-started-with-intel-galileo/"> Make: Getting Started With Intel Galileo</a>
+
+This book is a great place to start. It is a lot less technical and more accessible than a lot of other resources out there, and does not assume that you know anything about Arduinos or programming in general. You can buy a physical copy of the book from the <a href = "http://shop.oreilly.com/product/0636920032014.do">O'Reilly shop</a> but you can also get a pdf of the full book for free by registering your details on <a href = "http://makezine.com/books/getting-started-with-intel-galileo/">this page</a>. 
+
+**Please note :** Page 30 of this book tells you to go to the Galileo support site to download a special version of the Arduino software to program it. Since this was published, things have actually been made easier, and you can now use the regular Arduino IDE with the Galileo. Instructions for this are below. 
+
+
+
+## <a href="http://www.arduino.cc/en/Main/Software">Arduino Software</a>
+
+This is where you get the Arduino IDE or "Integrated Development Environment". 
+
+This is one of the quickest and easiest ways to start programming your Galileo. To get the Arduino IDE talking to your Galileo, follow the steps in this <a href = "http://www.arduino.cc/en/Guide/IntelGalileoGen2">getting started guide</a>. The Arduino website has tons of great <a href = "http://www.arduino.cc/en/Tutorial/HomePage">code examples</a> available to get you started writing code for any Arduino, not just the Galileo. 
+
+
+
+## <a href="https://learn.sparkfun.com/tutorials/galileo-getting-started-guide">Sparkfun Getting Started Guide</a>
+
+This is a great resource for getting your head round exactly what the Galileo is, and how to get up and running with it. If you are familiar with Linux, this guide will show you how to send terminal commands to the Galileo. Just like the Make book however, you should **ignore** the "software download/setup" section which tells you to download a separate "Arduino for Galileo" development environment. Just use the standard Arduino IDE linked above. 
+
+
+
+## <a href = "https://github.com/IntelOpenDesign/ConnectAnyThing">Connect Anything</a>
+
+Connect Anything is the tool that we were using today to rewire our inputs and outputs using a web based interface. 
+
+It is a great example of how the Galileo's capabilities as a wi-fi enabled computer allow us to do things that are simply not possible (or at least much, much more difficult) with a regular Arduino. It is also a brilliant example of how we can use programming to build tools that make our lives easier and save us tons of time.
+
+Instructions on how to set this up are available on their <a href = "https://github.com/IntelOpenDesign/ConnectAnyThing/wiki/How-To-Set-Up-Connect-AnyThing">wiki page</a>.
+
+
+
+## <a href = "http://fritzing.org/home/"> Fritzing </a>
+Fritzing is an open source tool for making circuit diagrams. 
+
+We used it for all of the diagrams in this workshop, and it is a really handy way of documenting your projects, and sharing the plans with others. 
+
+
+
+
+
+
+<br>
+
+## <a href = "http://www.intel.co.uk/content/www/uk/en/do-it-yourself/getting-started-with-galileo-video.html">Make Magazine Getting Started Sessions</a>
+
+<!--- ![make sessions]( ../img/galileo/resources - MakeSessions.PNG "make sessions")  -->
+
+These videos feature some of the first members of the Galileo maker community, including one of the creators of <a href = "https://github.com/IntelOpenDesign/ConnectAnyThing">Connect Anything</a>, talking about what exactly the Galileo is, the many different ways to use it, and showcasing projects that they have made with it. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8DUb6XM9U3c" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zrnZSaYkcCA" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pGhGjnh42a4" frameborder="0" allowfullscreen></iframe>
+
+
+<!---## Our workshops-->
