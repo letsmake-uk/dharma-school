@@ -1,5 +1,5 @@
 # Site settings
-title: Let's Build Robots!
+title: Let's make robots!
 description: "A website resource for Maker Lab's robotics course, held in July 2015 for the Dharma School in Brighton, UK"
 url: "http://letsmake.io/dharma-school"
 author:
@@ -26,3 +26,4 @@ defaults:
 
 # Custom variables
 version: "1.0.1"
+makerlab: "http://makerclub.org/makerlab"

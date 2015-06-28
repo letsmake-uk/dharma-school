@@ -1,0 +1,16 @@
+<div id="post-page">
+	<a href="{{ site.baseurl }}">
+	  <h2>About us:</h2>
+	</a>
+	<p>
+	<em>Let's Make:</em> is a Brighton based educational
+	organisation providing creative technology workshops
+	for all ages.
+	</p>
+
+	<p>
+	  We provide ready made or custom workshops that cover key
+	  points of the national ICT and science curricula
+	  for students or teachers. Below are links to a few
+	  workshops we have run in the past.
+</div>
